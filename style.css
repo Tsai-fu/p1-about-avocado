@@ -47,8 +47,9 @@ h3 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     line-height: 10%;
-    /* font-size: 36px; */
-    font-size: 2vw;
+    font-size: 36px;
+    white-space: nowrap;
+    /* font-size: 2vw; */
     color: #4F493D;
 }
 
@@ -182,6 +183,7 @@ footer {
 .homepage main,
 .nutritious-page main {
     display: flex;
+    flex-wrap: wrap;
     width: 78%;
     margin: auto;
     /* padding: 50px 0px; */
@@ -203,6 +205,11 @@ footer {
 
 }
 
+.right {
+    min-width: 300px;
+}
+
+
 .homepage main .right {
     /* border: 1px solid red; */
 }
@@ -211,12 +218,17 @@ footer {
 section .top {
     width: 78%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 80px;
     /* border: 1px solid red; */
+}
+
+section .top h2 {
+    line-height: 120%;
 }
 
 .varieties-page main {
     display: flex;
+    flex-wrap: wrap;
     width: 78%;
     margin: auto;
     padding-top: 50px;
@@ -244,6 +256,8 @@ section .top {
 
 .ways-page main {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 78%;
     margin: auto;
     padding: 50px 0px;
