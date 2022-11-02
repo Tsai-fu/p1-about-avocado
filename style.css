@@ -105,6 +105,11 @@ img {
     /* justify-content: center; */
 }
 
+.button:hover {
+    color: #f6ece0;
+    background-color: #4F493d;
+}
+
 nav {
     background: #868944;
     display: flex;
@@ -121,7 +126,6 @@ nav {
 
 .logo {
     padding: 5px 0px 0px 50px;
-    size-adjust: initial;
 }
 
 .topnav {
@@ -142,11 +146,11 @@ nav a {
     /* border: 1px solid red; */
 }
 
-.nav-hover {
+/* .nav-hover {
     position: relative;
     display: inline-block;
     cursor: pointer;
-}
+} */
 
 .nav-hover:hover {
     color: #4F493d;
